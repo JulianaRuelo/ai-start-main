@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 81.14 81.14">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #950529;
+      }
+
+      .cls-2 {
+        fill: #ffaf15;
+      }
+    </style>
+  </defs>
+  <g id="design">
+    <g id="Ihkitsikam">
+      <polygon class="cls-1" points="81.14 81.14 0 81.14 0 0 16.62 16.62 16.62 16.62 25.94 25.94 30.84 30.85 30.85 30.85 33.59 33.59 33.59 33.59 47.55 47.55 47.55 47.55 50.29 50.29 50.29 50.3 55.19 55.19 61.05 61.05 64.52 64.52 64.52 64.52 81.14 81.14"/>
+      <g>
+        <circle class="cls-2" cx="32.54" cy="53.44" r="3.67"/>
+        <circle class="cls-2" cx="19.57" cy="32.29" r="3.67"/>
+        <circle class="cls-2" cx="8.01" cy="28.62" r="3.67"/>
+        <circle class="cls-2" cx="26.9" cy="42.07" r="3.67"/>
+        <circle class="cls-2" cx="47.71" cy="57.79" r="3.67"/>
+        <circle class="cls-2" cx="43.58" cy="72.54" r="3.67"/>
+        <circle class="cls-2" cx="28.25" cy="68.18" r="3.67"/>
+      </g>
+    </g>
+  </g>
+</svg>

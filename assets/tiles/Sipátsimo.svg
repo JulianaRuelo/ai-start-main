@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 81.14 81.14">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #950529;
+      }
+
+      .cls-2 {
+        fill: #ffaf15;
+      }
+
+      .cls-3 {
+        clip-path: url(#clippath);
+      }
+
+      .cls-4 {
+        fill: #1b185f;
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-2" width="81.14" height="81.14"/>
+    </clipPath>
+  </defs>
+  <g id="design">
+    <g id="Sipátsimo">
+      <rect class="cls-2" width="81.14" height="81.14"/>
+      <g class="cls-3">
+        <g>
+          <path class="cls-4" d="M64.56,8.93l-16,16-15.99-15.99,31.99-31.99h0c3.67,3.67,3.67,28.31,0,31.97Z"/>
+          <path class="cls-2" d="M16.58-7.05l16,16,15.99-15.99-31.99-31.99h0c-3.67,3.67-3.67,28.31,0,31.97Z"/>
+          <path class="cls-2" d="M64.56,40.92l-16,16-15.99-15.99,31.99-31.99h0c3.67,3.67,3.67,28.31,0,31.97Z"/>
+          <path class="cls-1" d="M64.56,72.89l-16,16-15.99-15.99,31.99-31.99h0c3.67,3.67,3.67,28.31,0,31.97Z"/>
+          <path class="cls-4" d="M16.58,56.91l16,16,15.99-15.99-31.99-31.99h0c-3.67,3.67-3.67,28.31,0,31.97Z"/>
+          <path class="cls-1" d="M16.58,24.92l16,16,15.99-15.99L16.58-7.05h0c-3.67,3.67-3.67,28.31,0,31.97Z"/>
+          <path class="cls-4" d="M64.56,104.86l-16,16-15.99-15.99,31.99-31.99h0c3.67,3.67,3.67,28.31,0,31.97Z"/>
+          <path class="cls-2" d="M16.58,88.88l16,16,15.99-15.99-31.99-31.99h0c-3.67,3.67-3.67,28.31,0,31.97Z"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

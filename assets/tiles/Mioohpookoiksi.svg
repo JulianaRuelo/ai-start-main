@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 81.14 81.14">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ffaf15;
+      }
+
+      .cls-2 {
+        fill: #1b185f;
+      }
+    </style>
+  </defs>
+  <g id="design">
+    <g id="Mioohpookoiksi">
+      <polygon class="cls-2" points="81.14 81.14 0 81.14 0 0 16.62 16.62 16.62 16.62 25.94 25.94 30.84 30.85 30.85 30.85 33.59 33.59 33.59 33.59 47.55 47.55 47.55 47.55 50.29 50.29 50.29 50.3 55.19 55.19 61.05 61.05 64.52 64.52 64.52 64.52 81.14 81.14"/>
+      <g>
+        <ellipse class="cls-1" cx="19.45" cy="48.01" rx="3.63" ry="3.65"/>
+        <ellipse class="cls-1" cx="32.62" cy="48.01" rx="3.63" ry="3.65"/>
+        <ellipse class="cls-1" cx="19.45" cy="70.12" rx="3.63" ry="3.65"/>
+        <ellipse class="cls-1" cx="32.62" cy="70.12" rx="3.63" ry="3.65"/>
+        <ellipse class="cls-1" cx="12.19" cy="59.07" rx="3.63" ry="3.65"/>
+        <ellipse class="cls-1" cx="39.88" cy="59.07" rx="3.63" ry="3.65"/>
+        <ellipse class="cls-1" cx="26.04" cy="59.07" rx="3.63" ry="3.65"/>
+      </g>
+    </g>
+  </g>
+</svg>

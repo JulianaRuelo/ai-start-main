@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 81.14 81.14">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #ffaf15;
+      }
+
+      .cls-3 {
+        clip-path: url(#clippath);
+      }
+
+      .cls-4 {
+        fill: #1b185f;
+      }
+    </style>
+    <clipPath id="clippath">
+      <polygon class="cls-2" points="81.14 81.14 0 81.14 81.14 0 81.14 81.14"/>
+    </clipPath>
+  </defs>
+  <g id="design">
+    <g id="Naatosi">
+      <polygon class="cls-1" points="81.14 81.14 0 81.14 81.14 0 81.14 81.14"/>
+      <g>
+        <polygon class="cls-2" points="81.14 81.14 0 81.14 81.14 0 81.14 81.14"/>
+        <g class="cls-3">
+          <g>
+            <path class="cls-4" d="M40.57,72.5c-17.61,0-31.93-14.32-31.93-31.93s14.32-31.93,31.93-31.93,31.93,14.32,31.93,31.93-14.32,31.93-31.93,31.93ZM40.57,12.73c-15.35,0-27.84,12.49-27.84,27.84s12.49,27.84,27.84,27.84,27.84-12.49,27.84-27.84-12.49-27.84-27.84-27.84Z"/>
+            <rect class="cls-4" x="70.46" y="38.52" width="6.76" height="4.09"/>
+            <rect class="cls-4" x="3.92" y="38.54" width="6.76" height="4.09"/>
+            <rect class="cls-4" x="38.83" y="3.92" width="4.09" height="6.76"/>
+            <rect class="cls-4" x="38.83" y="70.46" width="4.09" height="6.76"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

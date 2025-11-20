@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 81.14 40.57">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #950529;
+      }
+
+      .cls-3 {
+        fill: #ffaf15;
+      }
+
+      .cls-4 {
+        clip-path: url(#clippath);
+      }
+
+      .cls-5 {
+        fill: #1b185f;
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-1" x="0" y="0" width="81.14" height="40.57"/>
+    </clipPath>
+  </defs>
+  <g id="design">
+    <g id="Ksisstsi_ko_m" data-name="Ksisstsi&amp;apos;ko&amp;apos;m">
+      <rect class="cls-5" x="0" y="0" width="81.14" height="40.57"/>
+      <g class="cls-4">
+        <g>
+          <path class="cls-2" d="M38.04,13.16c-.31-1.32-.61-2.4-4.46-4.1-4.26-1.88-12-1.83-15.22-1.37,2.02,1.12,1.65,2.03.58,3.14-.94.98-5.82,5.16-11.98,7.75-25.01,10.52-4.77,28.15-34.82,32.48-.21.03-.27.32-.07.41,9.79,4.83,49.16,4.47,56.57-14.09h0c2.13-5.32.93-10.31-2.11-13.97,2.73-6.99,7.43-7.73,13.31-3.59,3.03-4.29-1.49-5.38-1.8-6.67Z"/>
+          <polygon class="cls-3" points="75.62 35.31 63.53 25.4 64.06 28.61 53.58 22.19 54.39 25.81 44.5 20.29 57.25 30.09 56.71 26.88 67.24 33.33 66.43 29.72 75.62 35.31"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
