@@ -48,3 +48,21 @@ $("logo").on("click", function(){
 
 // $("body").css("background-color", "#dbdae2"); //<- is good for changing one instance
 $("body").addClass("bkg-color");
+
+$("#grid-view").on("click", function (){
+    console.log("grid view clicked")
+    $(".tiles").removeClass("type")
+    //$(".tiles").toggleClass("type") <-- toggle class is an interesting one, but not useful for this example
+    $("tile.blank").hide();
+    $("#abc-view").removeClass("active")
+    $("#grid-view").addClass("active")
+
+})
+
+$("#abc-view").on("click", function (){
+    console.log("abc view clicked")
+    $(".tiles").addClass("type")
+    $(".tile-blank").show();
+    $("#abc-view").addClass("active")
+    $("#grid-view").removeClass("active")
+})
