@@ -2,12 +2,23 @@ console.log("connected!")
 
 $(".title h1").on("click", updateTitle)
 
+$(document).on("keydown", function(eventname){
+    console.log(eventname.key)
+    if(eventname.key == "?")    {
+        updateTitle()
+
+    }
+
+})
+
 function updateTitle()   {
     $(".title h1").html("Abundant Memory, <em>Relational Intelligence</em>")
     $(".title h1").after("<p>October 17th, 2025 - January 23rd, 2026<p>")
     $(".title h1").unbind("click") //only applicable if you want smth to happen once
-
+    $(document).unbind("keydown")
 }
+
+
 
 // preppend & apend and before & after are kinda interchangable?
 
