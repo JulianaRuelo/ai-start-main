@@ -1,5 +1,7 @@
 console.log("connected!")
 
+var flipsound = document.getElementById("flipping")
+
 $(".title h1").on("click", updateTitle)
 
 $(document).on("keydown", function(eventname){
@@ -29,10 +31,19 @@ function updateFunders()    {
 
 }
 
+var logos =["abint-logo.svg", "ulag_logo_black.webp", "NFRF.png", "UofL.svg"] //<-- this is an array
+var counter = 0;
 //unamed function
-$("logo").on("click", function(){
-    $("this").attr("src", "assets/ulag_logo_black.webp");
-    $("this").attr("alt", "ULethbridge Art Gallery Logo");
+$("#logo").on("click", function(){
+    // // counter = counter + 1; <-- longform ver. like in processing
+    // counter++; //<-- increment operator, to add a limit smth to do w/ a link, length and percent?? which goes into the logos[counter]
+    var randomNum = Math.floor(Math.random()*logos.length)
+    console.log(randomNum)
+    $(this).attr("src", "assets/" + logos[randomNum]);
+    $(this).attr("alt", "ULethbridge Art Gallery Logo");
+    if(counter == logos.length -1)  {
+        counter = -1; //longform ver. like in processing
+    }
 
     //if it werent inside an unamed function, it'd look like this
     // $("#logo").attr("src", "assets/ulag_logo_black.webp");
@@ -53,6 +64,7 @@ $("#grid-view").on("click", function (){
     $("tile.blank").hide();
     $("#abc-view").removeClass("active")
     $("#grid-view").addClass("active")
+    flipsound.play()
 
 })
 
@@ -62,6 +74,7 @@ $("#abc-view").on("click", function (){
     $(".tile-blank").show();
     $("#abc-view").addClass("active")
     $("#grid-view").removeClass("active")
+    flipsound.play()
 })
 
 var light = true;
@@ -78,4 +91,5 @@ $("#color-view").on("click", function   (){
         $(":root").css("--bkg", "black")
         $(":root").css("--fgr", "#dbdae2")
     }
+    flipsound.play()
 })
