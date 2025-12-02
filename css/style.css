@@ -2,6 +2,9 @@
     --red: #950529;
     --yellow: #ffaf15;
     --blue: #1b185f;
+
+    --bkg: #dbdae2;
+    --fgr: #1b185f;
 }
 
 /* -------------- */
@@ -19,9 +22,9 @@ body {
     font-family: Arial, sans-serif;
 }
 
-.bkg-color {
+/* .bkg-color {
     background-color: #dbdae2;
-}
+} */
 
 img {
     max-width: 100%;
@@ -30,6 +33,11 @@ img {
 /* -------------- */
 /* Page Sections  */
 /* -------------- */
+
+body    {
+    background-color: var(--bkg);
+    color: var(--fgr);
+}
 
 header {
     display: flex;
@@ -43,7 +51,7 @@ main {
 }
 
 footer {
-    border-top: 1px solid black;
+    border-top: 1px solid var(--fgr);
     padding: 20px 50px;
     display: flex;
     justify-content: space-between;
@@ -66,15 +74,16 @@ footer {
 .button {
     display: inline-block;
     padding: 6px 10px;
-    border: 2px solid var(--blue);
-    color: var(--blue);
+    border: 2px solid var(--fgr);
+    color: var(--fgr);
     transition: background-color 0.3s;
 }
 
 .button:hover, .button.active {
-    background-color: var(--blue);
-    color: white;
+    background-color: var(--fgr);
+    color: var(--bkg);
 }
+
 
 /* -------------- */
 /* tiles grid */

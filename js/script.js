@@ -43,11 +43,8 @@ $("logo").on("click", function(){
 
 })
 
-
-
-
 // $("body").css("background-color", "#dbdae2"); //<- is good for changing one instance
-$("body").addClass("bkg-color");
+// $("body").addClass("bkg-color");
 
 $("#grid-view").on("click", function (){
     console.log("grid view clicked")
@@ -65,4 +62,20 @@ $("#abc-view").on("click", function (){
     $(".tile-blank").show();
     $("#abc-view").addClass("active")
     $("#grid-view").removeClass("active")
+})
+
+var light = true;
+$("#color-view").on("click", function   (){
+    // light = false; <-- this works too
+    light = !light;
+    console.log(light)
+    if(light == true){
+        console.log("light mode")
+        $(":root").css("--bkg", "#dbdae2")
+        $(":root").css("--fgr", "#1b185f")
+    } else {
+        console.log("dark mode")
+        $(":root").css("--bkg", "black")
+        $(":root").css("--fgr", "#dbdae2")
+    }
 })
